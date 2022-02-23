@@ -1,0 +1,114 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    max-height: 800px;
+    margin: 0 auto;
+}
+.container> nav{
+    line-height: 40px;
+    font-size: 25px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    border: 10%;
+}
+.container> header{
+    background-image: url('sneaker-collage-702x288.png');
+    background-size:  100%;
+    height: 0px;
+    padding-bottom: 10%;
+}
+
+.container> article{
+    min-height: 400px;
+    width: 75%;
+    background-color: white;
+    float: left;
+}
+.container> aside{
+    min-height: 400px;
+    width: 25%;
+    background-color: lightblue;
+    float: left;
+}
+
+.container> nav> a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+
+}
+.container> nav> a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
+.container> aside> ul> li> a{
+    color: blue;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+select{
+    float: left;
+    
+}
+.col-25
+{
+    width: 21%;
+    float: left;
+}
+.prod
+{
+    border-radius: 10px;
+    box-shadow: 0 0 5px gray;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    position: relative;
+}
+.prod>.name
+{
+    font-variant: small-caps;
+    color: orangered;
+}
+.prod>.image
+{
+    max-width: 100%;
+    height: 250px;
+    margin-bottom: 10px;
+}
+.about .row{
+    display: flex;
+    align-items: center;
+    background:var(--black);
+    flex-wrap: wrap;
+}
+
+.about .row .image{
+    flex:1 1 45rem;
+}
+
+.about .row .image img{
+    width: 100%;
+}
+.about .row .content{
+    flex:1 1 45rem;
+    padding:2rem;
+}
+
+.about .row .content h3{
+    font-size: 3rem;
+    color:#fff;
+}
+
+.about .row .content p{
+    font-size: 1.6rem;
+    color: black;
+    padding:1rem 0;
+    line-height: 1.8;
+}
+
+
+
